@@ -1,0 +1,258 @@
+/* Global */
+.container {
+	width: 100%;
+}
+
+body {
+	font-family: proxima-nova, sans-serif;
+	font-style: regular;
+	font-weight: 400;
+}
+
+.no-padding {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+hr {
+	border-color: #e9a92e;
+}
+
+.hr--short {
+	width: 4em;
+}
+
+.hr--long {
+	width: 5em;
+}
+
+.white-box {
+	background-color: #fff;
+	color: #000;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.white-box p,
+.white-box span {
+	font-weight: 100;
+}
+
+
+.baskerville {
+	color: #fff;
+	font-family: baskerville-urw-extra-narrow, serif;
+	font-style: italic;
+	font-weight: 200;
+	font-size: 1.5em;
+	padding: 1em 1em 0.2em 1em;
+}
+
+
+
+/* Navigation */
+
+#navigation-bar {
+
+}
+#navigation-bar #logo {
+  margin-left: 1%;
+  width: 66%;
+}
+
+/* Slider */
+
+#slider-center {
+	background-color: #fff;
+	text-align: center;
+}
+#slider img {
+	width: 100%;
+}
+
+/* Intro-Left */
+
+#intro-left p {
+    margin: 0;
+}
+
+/* Intro-Right */
+
+#intro-right {
+	background-color: #373741;
+	text-align: center;
+}
+
+#intro-right p {
+	color: #fff;
+	padding: 0.2em 2em 0.5em 2em;
+}
+
+#intro-right hr {
+	width: 5em;
+}
+
+#intro-right .text-uppercase {
+	margin-bottom: 0;
+}
+
+/* Pool Row*/
+
+#pool-row-left img {
+	width: 100%;
+}
+
+/*Three Panel Row*/
+
+#three-panel-left {
+	display: none;
+}
+
+#three-panel-middle img {
+	width: 100%;
+}
+
+#three-panel-right {
+	background: #e9a92e;
+}
+
+form {
+	padding: .75em 0;
+}
+
+#select-box {
+  padding: 0 0 0 0.20em;
+}
+
+#form-submit {
+	padding: 0;
+	background-color: #fff;
+	color: #000;
+}
+
+.form-control {
+	background-color: #e9a92e;
+	border: 2px #fff solid;
+	margin: 1em auto;
+	padding: 1em .5em;
+	border-radius: 0;
+	color: #fff;
+}
+
+/* Map */
+#map {
+	background: #373741;
+	padding-bottom: 1em;
+}
+
+#map-img {
+	background-image: url('../img/map.png');
+	background-size: 100%;
+}
+
+#map-widget {
+	background-color: #373741;
+	color: white;
+	text-align: center;
+}
+
+#map-widget h2 {
+	margin-top: 0;
+}
+
+#map-widget span, #contact-info span {
+	white-space: pre;
+	font-family: baskerville-urw-extra-narrow, serif;
+	font-weight: 200;
+	font-size: 1em;
+	padding: 1em 1em 1em 1em;
+}
+
+/* Contact */
+
+#contact-info {
+	background-color: #373741;
+	color: white;
+	text-align: center;
+}
+
+#contact-info h2 {
+	font-weight: 100;
+	font-size: 1.5em;
+}
+
+
+.social-icons {
+  color: white;
+  padding: 10px 0;
+}
+
+.icon-box {
+  width: 30px;
+  height: 30px;
+  margin: 39px 5px;
+}
+
+i {
+  align-self: center;
+  margin: 0 auto;
+}
+
+.circle {
+  border: 1px white solid;
+  border-radius: 50%;
+}
+
+.logo-icons {
+  -webkit-padding-start: 0px;
+  padding: 0;
+  font-size: 1.6em;
+}
+
+.logo-bottom {
+  width: 161px;
+  height: 46px;
+  background: white;
+  color: #2c2c36;
+  align-items: center;
+}
+
+
+/* @Media */
+
+
+@media (min-width: 768px) {
+	#map-img {
+	    background-image: url(../img/map.png);
+	    background-size: 100%;
+	}
+}
+
+@media (min-width: 992px) {
+	/* Navigation */
+	#navigation-bar #logo {
+		margin-left: 30%;
+		width: auto;
+	}
+}
+
+@media (min-width: 1024px) {
+	/* Main -> Intro-Left */
+	#intro-left p {
+		color: #000;
+		font-size: 2.5em;
+	    padding: 2em 1em 2em 1em;
+    	margin: 0;
+	}
+
+	#three-panel-left {
+		display: initial;
+	}
+
+	/* Main -> Intro-Right */
+	#intro-right h2 {
+	    color: #fff;
+	    font-size: 1.8em;
+	    padding: 1em 2em 0.2em 2em;
+	}
+}
