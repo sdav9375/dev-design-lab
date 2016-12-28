@@ -70,9 +70,17 @@ hr {
 	margin: 0;
 }
 
-
-
 /* Navigation */
+
+#myNavmenu {
+	background: red;
+}
+
+.navbar-toggle {
+	margin: 0;
+	padding: 0;
+	float: none;
+}
 
 #navigation-bar #logo {
   margin-left: 1%;
@@ -322,11 +330,78 @@ form {
 
 /* @Media */
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
+
+	#navigation-bar #logo {
+    margin-left: 15%;
+	}
+	
 	#map-img {
 	    background-image: url(../img/map.png);
 	    background-size: 100%;
 	}
+
+	.carousel-box {
+		font-size: 3em;
+		position: absolute;
+		top: 41%;
+		left: 13%;
+		padding: 5px 0 5px 10px;
+	}
+
+	#carousel .right {
+		font-size: 1.5em;
+	}
+
+	#carousel .left {
+		right: 58%;
+		font-size: 1.5em;
+	}
+
+	#carousel .carousel-indicators {
+	    text-align: left;
+	    margin-left: -338px;
+	}
+
+	.white-box {
+		font-size: 2.5em;
+	}
+
+	.baskerville {
+		font-size: 2.5em;
+	}
+
+	p.bask, p.floor {
+		font-size: 2em;
+	}
+
+	.form-control {
+		padding: 1.1em .5em;
+		font-size: 2em;
+		height: 67px;
+	}
+
+	#map-widget span, #contact-info span {
+		font-size: 1.75em;
+		display: block;
+		padding: 0;
+	}
+
+	#social-media > div {
+		display: flex;
+		justify-content: center;
+	}
+
+	.icon-box {
+		height: 43px;
+		width: 43px;
+		margin: 0 5px;
+	}
+
+	.footer-text, .footer-icons {
+		font-size: 1.25em;
+	}
+
 }
 
 @media (min-width: 992px) {

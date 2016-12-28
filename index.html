@@ -19,6 +19,7 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/jasny-bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 
 	<!-- Favicon -->
@@ -27,13 +28,36 @@
 <body>
 
 	<!-- Navigation -->
+	<nav id="myNavmenu" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
+		<div class="navmenu navmenu-default navmenu-fixed-left">
+      <a class="navmenu-brand" href="#">Project name</a>
+      <ul class="nav navmenu-nav">
+        <li><a href="../navmenu/">HOME</a></li>
+        <li><a href="../navmenu-reveal/">FLOOR PLANS</a></li>
+				<li class="active"><a href="./">GALLERY</a></li>
+        <li><a href="../navmenu-reveal/">AMENITIES</a></li>
+        <li><a href="../navmenu-reveal/">CONTACT</a></li>
+      </ul>
+			<hr>
+      <ul class="nav navmenu-nav">
+	      <li><a href="#">RESIDENTS</a></li>
+        <li><a href="#">APPLY NOW</a></li>
+      </ul>
+	  </div>
+	</nav>
+
+
 	<nav class="container">
 		<div id="navigation" class="row">
 			<div id="navigation-bar" class="col-md-12 no-padding">
-				<img id="nav-btn" src="img/nav-button.jpg"> <img id="logo" src="img/logo.jpg">
+				<img id="nav-btn" src="img/nav-button.jpg" class="navbar-toggle" data-toggle="offcanvas" data-target="#myNavmenu" data-canvas="body"> <img id="logo" src="img/logo.jpg">
 			</div>
 		</div>
 	</nav>
+
+
+
+
 
 	<!-- Main -->
 	<main class="container">
@@ -197,7 +221,7 @@
 	<div id="contact-info" class="row">
 		<div class="col-md-12 no-padding">
 				<h2>CONTACT US</h2>
-				<span>P: 555.555.5555</span>
+				<span>P: 555.555.5555</span><br />
 				<span>A: 261 NE 1st Street, Miami, FL 33132</span>
 
 
@@ -258,6 +282,7 @@
 			<!-- JavaScript -->
 			<script src="js/jquery-3.1.1.min.js"></script>
 			<script src="js/bootstrap.min.js"></script>
+			<script src="js/jasny-bootstrap.min.js"></script>
 			<script src="js/scripts.js"></script>
 </body>
 </html>
