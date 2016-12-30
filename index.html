@@ -30,13 +30,13 @@
 	<!-- Navigation -->
 	<nav id="myNavmenu" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
 		<div class="navmenu navmenu-default navmenu-fixed-left">
-      <a class="navmenu-brand" href="#">Project name</a>
+
       <ul class="nav navmenu-nav">
-        <li><a href="../navmenu/">HOME</a></li>
-        <li><a href="../navmenu-reveal/">FLOOR PLANS</a></li>
-				<li class="active"><a href="./">GALLERY</a></li>
-        <li><a href="../navmenu-reveal/">AMENITIES</a></li>
-        <li><a href="../navmenu-reveal/">CONTACT</a></li>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">FLOOR PLANS</a></li>
+				<li class="active"><a href="#">GALLERY</a></li>
+        <li><a href="#">AMENITIES</a></li>
+        <li><a href="#">CONTACT</a></li>
       </ul>
 			<hr>
       <ul class="nav navmenu-nav">
@@ -50,7 +50,17 @@
 	<nav class="container">
 		<div id="navigation" class="row">
 			<div id="navigation-bar" class="col-md-12 no-padding">
-				<img id="nav-btn" src="img/nav-button.jpg" class="navbar-toggle" data-toggle="offcanvas" data-target="#myNavmenu" data-canvas="body"> <img id="logo" src="img/logo.jpg">
+
+				<button type="button" data-toggle="offcanvas"  data-target="#myNavmenu" data-canvas="body" class="navbar-toggle" >
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44.994" height="44.994" viewBox="0 0 88 88">
+					  <image id="navicon" width="88" height="88" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAQAAACQEyoRAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfgDBwOAS1T9fQ6AAAAfElEQVRIx2NU/sxwk4EWQJ2F4QKDLU2MPsxEE2MZGBgYGEaNHjV61OjBYjQLFrE5DAZkmOTA8IWw0SmDPkBGjR4WRiMnPjcGforN+8iwC5vRWgwSFBv9ArvRE6gbIEMzGkeNHhZGj9Yyo0aPGj1q9CA1mlH5PcMZmphsAgA1yg+dX13YTwAAAABJRU5ErkJggg=="/>
+					</svg>
+					<span class="hidden-xs hidden-sm">MENU</span>
+				</button>
+				<span class="hidden-xs hidden-sm menu__item">CALL 888.555.5555</span>
+				<img id="logo" class="menu__item" src="img/logo.jpg">
+				<span class="hidden-xs hidden-sm menu__item"><a href="#">RESIDENTS</a></span>
+				<span class="hidden-xs hidden-sm menu__item"><a href="#">APPLY NOW</a></span>
 			</div>
 		</div>
 	</nav>
@@ -105,27 +115,17 @@
 
 		  <!-- Controls -->
 		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-		    <span class="left"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+		    <span class="left"><i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i></span>
 		    <span class="sr-only">Previous</span>
 		  </a>
 		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-		    <span class="right"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+		    <span class="right"><i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i></span>
 		    <span class="sr-only">Next</span>
 		  </a>
 		</div>
 
 
 <!-- End of Carousel -->
-
-
-		<!-- Slider -->
-
-
-		<!-- <div id="slider" class="row">
-			<div id="slider-center" class="col-md-12 no-padding">
-				<img src="img/slider.jpg">
-			</div>
-		</div> -->
 
 		<!-- Intro -->
 		<div id="intro" class="row no-padding">
@@ -156,14 +156,14 @@
 
 			<!-- Pool Row Right -->
 			<div id="pool-row-right" class="col-md-5 white-box">
-				<hr class="hr--long">
-				<span>EXPERIENCE</span>
-				<span>LUXURY AND</span>
-				<span>COMFORT WITH</span>
-				<span>STUNNING VIEWS</span>
-				<span>OF NORTH</span>
-				<span>SCOTTSDALE</span>
-				<hr class="hr--long">
+				<hr id="pool__hr__top" class="hr--long">
+				<span>EXPERIENCE</span><br>
+				<span>LUXURY AND</span><br>
+				<span>COMFORT WITH</span><br>
+				<span>STUNNING VIEWS</span><br>
+				<span>OF NORTH</span><br>
+				<span>SCOTTSDALE.</span>
+				<hr id="pool__hr__bottom" class="hr--long">
 			</div>
 		</div>
 
@@ -171,26 +171,26 @@
 		<div id="three-panel" class="row">
 
 			<!-- Three Panel Left -->
-			<div id="three-panel-left" class="col-md-5 white-box">
-				<hr class="hr--short">
-				<span>CHOOSE</span>
-				<span>YOUR LIFESTYLE.</span>
-				<span>FIND YOUR</span>
-				<span>NEW HOME.</span>
-				<hr class="hr--short">
+			<div id="three-panel-left" class="col-md-4 white-box">
+				<hr id="three__hr__top" class="hr--short">
+				<span>CHOOSE</span><br>
+				<span>YOUR LIFESTYLE.</span><br>
+				<span>FIND YOUR</span><br>
+				<span>NEW HOME.</span><br>
+				<hr id="three__hr__bottom" class="hr--short">
 			</div>
 
 			<!-- Three Panel Middle -->
-			<div id="three-panel-middle" class="col-md-2 no-padding">
+			<div id="three-panel-middle" class="col-md-4 no-padding">
 				<img src="img/woman_in_hat.png" alt="Image of woman wearing hat">
 			</div>
 			<!-- Three Panel Right -->
 
-			<div id="three-panel-right" class="col-md-5">
+			<div id="three-panel-right" class="col-md-4">
 				<form>
 					<div class="form-group">
-						<input class="form-control" type="text" name="firstname" onfocus="this.value=''; this.onfocus=null;" value="FIRST NAME">
-						<input class="form-control" type="text" name="lastname" onfocus="this.value=''; this.onfocus=null;" value="LAST NAME">
+						<input id="first_name" class="form-control" type="text" name="firstname" onfocus="this.value=''; this.onfocus=null;" value="FIRST NAME">
+						<input id="second_name" class="form-control" type="text" name="lastname" onfocus="this.value=''; this.onfocus=null;" value="LAST NAME">
 					</div>
 					<input class="form-control" type="text" name="email" onfocus="this.value=''; this.onfocus=null;" value="EMAIL">
 							<select class="form-control" id="select-box">
@@ -209,6 +209,7 @@
 		<div id="map" class="row">
 			<div id="map-img" class="col-md-12 no-padding">
 				<div id="map-widget" class="col-sm-12 col-md-6 col-md-offset-3">
+					<div class="map-symbol"><i class="fa fa-map-marker fa-5x" aria-hidden="true"></i></div>
 					<h2 class="baskerville">Lorem ipsum dolor sit amet.</h2>
 					<hr class="hr--short">
 					<span>P: 555.555.5555</span>
@@ -222,7 +223,7 @@
 		<div class="col-md-12 no-padding">
 				<h2>CONTACT US</h2>
 				<span>P: 555.555.5555</span><br />
-				<span>A: 261 NE 1st Street, Miami, FL 33132</span>
+				<span>A: 261 NE 1st Street | Miami, FL 33132</span>
 
 
 
