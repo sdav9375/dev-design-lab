@@ -1,43 +1,5 @@
 /* Global */
 
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1032;
-    top: 0;
-    left: 0;
-    background-color: #fff;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s
-}
-
-.sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-
-
-
-
 html,body {
     width: 100%;
     height: 100%;
@@ -120,17 +82,56 @@ hr {
   border-radius: 50%;
 }
 
-.nothing {
+.no-m-p {
 	padding: 0;
 	margin: 0;
 }
 
 /* Navigation */
 
-#myNavmenu {
-	background: red;
+/* Off-Canvas Side Menu */
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1032;
+  top: 0;
+  left: 0;
+  background-color: #373741;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 197px;
 }
 
+.sidenav li a {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	font-family: proxima-nova, sans-serif;
+	font-weight: 100;
+	font-size: 1.5em;
+	background: #373741;
+}
+
+.nav > li {
+	text-align: center;
+	margin: 10px auto;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+	background: #373741;
+	border: 1px solid #fff;
+	text-decoration: none;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+	top: 20px;
+	margin-left: 28px;
+}
+
+/* Navigation Bar */
 #navigation-bar {
 	display: flex;
 	align-items: center;
@@ -230,7 +231,7 @@ hr.bottom {
 /* Intro-Right */
 
 #intro-right {
-	background-color: #2C2C36;
+	background-color: #373741;
 	text-align: center;
 }
 
@@ -290,17 +291,17 @@ form {
 
 /* Map */
 #map {
-	background: #2C2C36;
+	background: #373741;
 	padding-bottom: 1em;
 }
 
 #map-img {
-	background: #2C2C36;
+	background: #373741;
 	background-size: 100%;
 }
 
 #map-widget {
-	background-color: #2C2C36;
+	background-color: #373741;
 	color: white;
 	text-align: center;
 }
@@ -324,7 +325,7 @@ form {
 /* Contact */
 
 #contact-info {
-	background-color: #2C2C36;
+	background-color: #373741;
 	color: white;
 	text-align: center;
 }
@@ -373,7 +374,7 @@ form {
   width: 161px;
   height: 46px;
   background: white;
-  color: #2c2c36;
+  color: #373741;
 	position: relative;
 }
 
@@ -389,13 +390,13 @@ form {
 /* Footer */
 
 .footer-text {
-	color: #2C2C36;
+	color: #373741;
 	font-size: .75em;
 	text-align: center;
 }
 
 .pet {
-	color: #2C2C36;
+	color: #373741;
 	font-size: .75em;
 }
 
@@ -404,7 +405,7 @@ form {
 }
 
 .footer-icons a {
-	color: #2C2C36
+	color: #373741
 }
 
 /* @Media */
@@ -682,7 +683,7 @@ form {
 
 	#contact-info {
 		height: 478px;
-		background: #2C2C36;
+		background: #373741;
 	}
 
 	#contact-info h2 {
