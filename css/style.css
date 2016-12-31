@@ -166,10 +166,6 @@ hr {
 	margin-right: 1px;
 }
 
-.hidden--lg {
-	display: none;
-}
-
 /* Slider */
 
 .carousel-box {
@@ -711,20 +707,13 @@ form {
 		flex-direction: row;
 		margin-top: 69px;
 	}
-	.hidden--lg {
-		display: inline-block;
-	}
+
 }
 
 @media (min-width: 1024px) {
 
 	#intro-left {
 		padding-top: 5%;
-	}
-
-	#intro-left p {
-		color: #000;
-    margin: 0;
 	}
 
 	#three-panel {
