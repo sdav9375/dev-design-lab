@@ -87,6 +87,15 @@ hr {
 	margin: 0;
 }
 
+.hidden {
+	position:absolute;
+	left:-10000px;
+	top:auto;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
+
 /* Navigation */
 
 /* Off-Canvas Side Menu */
@@ -240,6 +249,7 @@ hr.bottom {
 }
 
 #intro-right .floor {
+	color: #fff;
 	font-weight: 100;
 	margin-bottom: 0;
 	padding-bottom: 2.0em;

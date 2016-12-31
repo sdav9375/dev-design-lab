@@ -49,7 +49,7 @@
 		<div id="navigation" class="row navbar-fixed-top white">
 			<div id="navigation-bar" class="col-md-12 no-padding">
 				<span class="menu__item">
-					<button onclick="openNav()" id="menu__button" type="button" data-toggle="offcanvas"  data-target="side-menu" data-canvas="body" class="navbar-toggle" >
+					<button onclick="openNav()" id="menu__button" type="button" alt="menu button" data-toggle="offcanvas"  data-target="side-menu" data-canvas="body" class="navbar-toggle" >
 						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="42" viewBox="0 0 42 42">
 							<image id="navicon" width="42" height="42" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAABYCAQAAADbnPi/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfgCxYSLwWl5jOMAAAA90lEQVRo3u3buw3CQBBF0We0CRGfFmhiM1qhBDJwBUBGOYQmczV8IpNBjkAehDXrte6NJziBR7K862LxVFYFSbXOqRnGlopBUqUytcTYTnGU2vBrgAEDBgwYMOBeBRgwYMCAAQ8bHExTeyfNSVU34I0T+NYVeO4EbtpHbOCrE9hQdksHGDBgwIABA+5V2YE/v60dNU4Nk9RobQWvNEmtlXS3g6eprd/L7hkGDBgwYMCAAfcqwIDfsn0fnjlpGj26AV+cwGX7aYoNfHAC1+0jNvDWCWwou6UDDBgwYMCAAfcqwIABAwYMeNjgICm63a38tygVuf0m/AKryBel3sD0EQAAAABJRU5ErkJggg=="/>
 						</svg>
@@ -88,7 +88,7 @@
 
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
-					<img src="img/banner_pic.jpg" alt="...">
+					<img src="img/banner_pic.jpg" alt="luxury apartment banner image">
 					<div class="carousel-box">
 						<hr class="hr--short no-m-p top">
 						<span class="caption">LOREM IPSUM</span>
@@ -97,7 +97,7 @@
 					</div>
 				</div>
 				<div class="item">
-					<img src="img/banner_pic.jpg" alt="...">
+					<img src="img/banner_pic.jpg" alt="luxury apartment banner image">
 					<div class="carousel-box">
 						<hr class="hr--short no-m-p top">
 						<span class="caption">LOREM IPSUM</span>
@@ -106,7 +106,7 @@
 					</div>
 				</div>
 				<div class="item">
-					<img src="img/banner_pic.jpg" alt="...">
+					<img src="img/banner_pic.jpg" alt="luxury apartment banner image">
 					<div class="carousel-box">
 						<hr class="hr--short no-m-p top">
 						<span class="caption">LOREM IPSUM</span>
@@ -148,7 +148,7 @@
 				<p class="bask">Luxury Aparments offers 1-, 2-, and 3-Bedrooms along with Loft-style
 					<span> homes, nested in the sunny beauty of north scottsdale.</span>
 				</p>
-				<p class="floor">FLOOR PLANS >></p>
+				<h3 class="floor">FLOOR PLANS >></h3>
 			</div>
 		</div>
 
@@ -195,10 +195,11 @@
 			<div id="three-panel-right" class="col-md-4">
 				<form>
 					<div class="form-group">
-						<input id="first_name" class="form-control" type="text" name="firstname" onfocus="this.value=''; this.onfocus=null;" value="FIRST NAME">
-						<input id="second_name" class="form-control" type="text" name="lastname" onfocus="this.value=''; this.onfocus=null;" value="LAST NAME">
+						<input id="first_name" class="form-control" type="text" title="first name" name="firstname" onfocus="this.value=''; this.onfocus=null;" value="FIRST NAME">
+						<input id="second_name" class="form-control" type="text" title="last name" name="lastname" onfocus="this.value=''; this.onfocus=null;" value="LAST NAME">
 					</div>
-					<input class="form-control" type="text" name="email" onfocus="this.value=''; this.onfocus=null;" value="EMAIL">
+					<input class="form-control" type="text" title="email" name="email" onfocus="this.value=''; this.onfocus=null;" value="EMAIL">
+					<label for="select-box" class="hidden">How did you hear about us?</label>
 					<select class="form-control" id="select-box">
 						<option value="" disabled selected>HOW DID YOU HEAR ABOUT US? <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></option>
 						<option class="form-control" value="Internet">INTERNET</option>
