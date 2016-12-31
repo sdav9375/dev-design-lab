@@ -150,6 +150,15 @@ hr {
 	height: 63px;
 }
 
+#navigation-bar button {
+	display: flex;
+	align-items: center;
+}
+
+#navigation-bar span.hidden-xs {
+	margin-left: 11px;
+}
+
 #menu__button {
 	margin-right: 5px;
 	margin-left: 22px;
