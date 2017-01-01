@@ -102,16 +102,25 @@ hr {
 
 .sidenav {
   height: 100%;
-  width: 0;
+  width: 325px;
   position: fixed;
   z-index: 1032;
   top: 0;
-  left: 0;
+  left: -325px;
   background-color: #373741;
   overflow-x: hidden;
+	overflow-y: scroll; /* new */
   transition: 0.5s;
   padding-top: 197px;
 }
+
+/* New */
+/*@media all and (min-width: 320px) {
+  .sidenav {
+    width: 300px;
+		transform: translateX(-300px);
+  }
+}*/
 
 .sidenav li a {
 	display: inline-block;
@@ -139,8 +148,16 @@ hr {
 
 .sidenav .closebtn {
   position: absolute;
-	top: 20px;
-	margin-left: 28px;
+	top: 22px;
+  margin-left: 21px;
+	cursor: pointer; /* new */
+}
+
+rect.x-bn {
+	stroke:#fff;
+	fill:#fff;
+	fill-opacity: 0;
+	stroke-opacity: 0;
 }
 
 /* Navigation Bar */

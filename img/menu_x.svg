@@ -1,3 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="88" height="88" viewBox="0 0 88 88">
-  <image id="close_btn" data-name="close btn" width="88" height="88" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAABYCAQAAADbnPi/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfgCxgWESRPnOdAAAAByElEQVRo3u3bsUpDMRjF8f/VLk4+gSIOBd2c7OYzODo4VKRWUHDrCwjFWaEigkMHn8PNQXB0EETwOUqcSmu17b35Tm5b/E7mkB8hEA4hWQgsVCrAM0+zZuTMHjVCCO3Agox2CEuz3rSicbCDHexgBzvYwXMVBzvYwQ52sIOTg3e4ZlmwdsZ6OeADzngwkzM6vLBRdFolYqkWqzSAOj0T94QuX2WAA00wkfvciPkxYCvZwI0FW8gmbjw4lmzkWsAxZDPXBi5KFnCt4CJkCdcOzksWcRXgPGQZVwOeRhZyVeBJZClXBx5HFnOV4L/Icq4WPEpOwFWDh8lH3Oi5evCAvEtVz03T6QKnvFHlg2M1Nw04o8MW72xyL+l+icEZtzToss0dh4LuNxL1Ge5z6/TMRaoE8DBX0f0Sg39ySUPWgX9zk5BV4L+5Ccga8HiunKwAT+aKyXbwdK6UbAXn4wrJNnB+roxsARfjisjx4OJcCTkWHMcVkOPA8VwzOQZs4xrJMeArI3dA3meNz/TgR1a4MF+ygSaX5bxxvHJuxPbJhbn/5GHRwQ6epzjYwQ52sIMd7OC5ioMd7GAHT04FqNGaNSNnapAt2jfhb8CaPof90y0PAAAAAElFTkSuQmCC"/>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="42" viewBox="0 0 42 42">
+  <g>
+    <image id="close_btn" data-name="close btn" width="42" height="42" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAABYCAQAAADbnPi/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfgDB4THzq6kLaKAAAByElEQVRo3u3bsUpDMRjF8f/VLk4+gSIOBd2c7OYzODo4VKRWUHDrCwjFWaEigkMHn8PNQXB0EETwOUqcSmu17b35Tm5b/E7mkB8hEA4hWQgsVCrAM0+zZuTMHjVCCO3Agox2CEuz3rSicbCDHexgBzvYwXMVBzvYwQ52sIOTg3e4ZlmwdsZ6OeADzngwkzM6vLBRdFolYqkWqzSAOj0T94QuX2WAA00wkfvciPkxYCvZwI0FW8gmbjw4lmzkWsAxZDPXBi5KFnCt4CJkCdcOzksWcRXgPGQZVwOeRhZyVeBJZClXBx5HFnOV4L/Icq4WPEpOwFWDh8lH3Oi5evCAvEtVz03T6QKnvFHlg2M1Nw04o8MW72xyL+l+icEZtzToss0dh4LuNxL1Ge5z6/TMRaoE8DBX0f0Sg39ySUPWgX9zk5BV4L+5Ccga8HiunKwAT+aKyXbwdK6UbAXn4wrJNnB+roxsARfjisjx4OJcCTkWHMcVkOPA8VwzOQZs4xrJMeArI3dA3meNz/TgR1a4MF+ygSaX5bxxvHJuxPbJhbn/5GHRwQ6epzjYwQ52sIMd7OC5ioMd7GAHT04FqNGaNSNnapAt2jfhb8CaPof90y0PAAAAAElFTkSuQmCC"/>
+  </g>
 </svg>
+
+
+<!-- <rect class="x-bn" x="0" y="0" width="42" height="42" onclick="alert('hi')" /> -->
